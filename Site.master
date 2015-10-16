@@ -1,0 +1,18 @@
+<%@ Master %>
+
+<%@ Register Src="Login.ascx" TagName="Login" TagPrefix="uc1" %>
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>ASP.NET Website with Web Api</title>
+</head>
+<body>
+
+  <uc1:Login runat="server" />
+
+  <form runat="server">
+    <asp:ContentPlaceHolder ID="content" runat="server" />
+  </form>
+</body>
+</html>
